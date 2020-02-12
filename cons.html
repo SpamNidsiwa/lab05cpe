@@ -138,6 +138,7 @@
                       <td>
                           <input type="radio" name="gen" value="male" class = "gender"> male
                           <input type="radio" name="gen" value="female" class = "gender"> female
+                          <input type="radio" name="gen" value="other" class = "gender"> other
                       </td>
                   </tr>
                   <tr>
@@ -163,21 +164,59 @@
                       </td>
                       <td>
                           <input type="button" value="submit" id = "submit">
+                          <input type="button" value="reset" id = "reset">
                       </td>
                   </tr>
                   
               </tbody></table>
+              <br>
+              <h4>
+                GENDER STATISTICS
+              </h4>
+              <table align="center" width="60%" id = "percen_table" style="border-spacing: 10px; border-collapse: separate;">
+                  <tr>
+                    <td width = "15%">
+                      Male
+                    </td>
+                    <td id = "percen_male">
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Female
+                    </td>
+                    <td id = "percen_female">
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Otder
+                    </td>
+                    <td id = "percen_other">
+                      
+                    </td>
+                  </tr>
+              </table>
+              <br>
+              <h4>
+                USER INFO
+              </h4>
+              <table align="center" width = "60%" id = "user_info_table">
+
+              </table>
               </div>
               <!-- /.box-body -->
               <!-- /.box-footer-->
             </div>
             <!-- /.box -->
-      
+            
           </section>
           <!-- /.content -->
         </div>
         <!-- /.content-wrapper -->
-      
+        
         <footer class="main-footer">
           <div class="pull-right hidden-xs">
             <b>Version</b> 2.4.18
